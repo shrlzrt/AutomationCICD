@@ -15,6 +15,7 @@ import org.testng.Assert;
 public class StandAloneTest {
 
 	public static void main(String[] args) {
+		//new comments are added for demo purposes
 		String productName = "ZARA COAT 3";
 		WebDriver driver = new FirefoxDriver();
 		driver.manage().window().maximize();
